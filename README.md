@@ -1,2 +1,2 @@
-# strict-psd-to-html
-Its a PSD to HTML of a famous PSD nameed STRICT
+# STRICT-PSD-to-HTML
+Its a PSD to HTML of a famous PSD named STRICT
