@@ -1,0 +1,109 @@
+/*
+	Author : sourav mahmud
+*/
+
+/***************************
+
+	1. Global Typography
+	2. Header Section
+	3. Banner Section
+	4. Intro Section
+	5. Features Section
+	6. Portfolio Section
+	7. Contact Section
+	8. Footer Section
+	
+***************************/
+
+/*=============================
+    Global Typography
+===============================*/
+
+/* google fonts lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1{
+    
+}
+h2{
+    
+}
+p{
+    
+}
+
+/* header section */
+header{
+    background-color: #f6f9f9;
+    padding: 20px 0px;
+}
+
+/* banner section */
+.banner{
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    padding: 120px 0px 40px;
+}
+
+.banner h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.title-underline{
+    border: 1px solid #15a4fa;
+    width: 44%;
+    margin: 15px auto 20px;
+}
+
+.btn-primary{
+    padding: 15px 20px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 75px auto 150px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background: #15a4fa
+}
+
+.fa-angle-down{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+
+
